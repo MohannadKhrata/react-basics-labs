@@ -4,7 +4,7 @@ body {
   font-weight: 400;
 }
 
-.container{
+.container {
   text-align: center;
 }
 
@@ -39,4 +39,45 @@ div {
 .title {
   font-weight: bold;
   font-size: 1.2em; 
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  font-style: italic;
+  font-size: 0.8em;
+  margin: 4px 6px;
+  width: 50px;
+  height: 25px;
+}
+
+.doneButton {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: green;
+}
+
+.desc {
+  font-style: italic;
+  margin: 14px 0 10px;
+}
+
+.priority {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 8px;
+  color: white;
+}
+
+.priority.low {
+  color: white;
+}
+
+.priority.medium {
+  color: white;
+}
+
+.priority.high {
+  color: white;
 }
